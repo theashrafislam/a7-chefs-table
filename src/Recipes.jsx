@@ -1,7 +1,6 @@
 import { LuClock3 } from "react-icons/lu";
 import { AiOutlineFire } from "react-icons/ai";
-import { useState } from "react";
-const Recipes = ({ recipe }) => {
+const Recipes = ({ recipe, handleWantToCook}) => {
     // console.log(recipe)
     const {recipe_image, recipe_name, short_description, preparing_time, calories, ingredients} = recipe;
     return (
@@ -25,7 +24,7 @@ const Recipes = ({ recipe }) => {
                     <p className="flex items-center gap-1 text-base text-[#282828CC]"><LuClock3 className="text-lg" />{preparing_time}</p>
                     <p className="flex items-center gap-1 text-base text-[#282828CC]"><AiOutlineFire className="text-xl" />{calories}</p>
                 </div>
-                <button className="px-6 py-3 bg-[#0BE58A] text-[#150B2B] rounded-[50px] font-medium">Want to Cook</button>
+                <button onClick={() => handleWantToCook(recipe)} className="px-6 py-3 bg-[#0BE58A] text-[#150B2B] rounded-[50px] font-medium">Want to Cook</button>
             </div>
         </div>
     );

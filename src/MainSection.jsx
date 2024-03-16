@@ -1,8 +1,26 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+import { useState } from "react";
 import Recipes from "./Recipes";
 import Sidebar from "./Sidebar";
-const MainSection = ({recipesItem}) => {
+const MainSection = ({ recipesItem }) => {
+
     // console.log(recipesItem)
+    const [wantToCook, setWantToCook] = useState([]);
+    const handleWantToCook = (recipe) => {
+        console.log(recipe)
+        const isExist = wantToCook.find(item => item.recipe_id === recipe.recipe_id);
+        // console.log(isExist);
+        if (!isExist) {
+            setWantToCook([...wantToCook, recipe]);
+        }
+        else {
+
+            toast('Recipe already exists');
+        }
+        // setWantToCook([])
+    }
     return (
         <div>
             <div className="text-center my-28">
@@ -12,14 +30,15 @@ const MainSection = ({recipesItem}) => {
             <div className="flex gap-8 mb-20">
                 <div className="w-2/3 grid grid-cols-2 gap-5">
                     {
-                        recipesItem.map((recipes, index) => <Recipes key={index} recipe={recipes}></Recipes>)
+                        recipesItem.map((recipes, index) => <Recipes key={index} recipe={recipes} handleWantToCook={handleWantToCook}></Recipes>)
                     }
                 </div>
 
                 <div className="w-1/3">
-                    <Sidebar></Sidebar>
+                    <Sidebar wantToCook={wantToCook}></Sidebar>
                 </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
