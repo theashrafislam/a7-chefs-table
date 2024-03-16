@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "chicken_teriyaki.jpg",
+      "recipe_image": "https://i.ibb.co/BwM4kks/1498598755-teriyaki-chicken.jpg",
       "recipe_id": "001",
       "recipe_name": "Chicken Teriyaki",
       "short_description": "Delicious Japanese-style grilled chicken with a sweet and savory sauce.",
@@ -9,25 +9,25 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "spaghetti_bolognese.jpg",
+      "recipe_image": "https://i.ibb.co/PNpJ7qk/a8adc6bf-52a6-4428-ae42-5a59697a226c.jpg",
       "recipe_id": "002",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with rich tomato-based meat sauce.",
-      "ingredients": ["400 g spaghetti", "300 g ground beef", "500 g tomatoes", "100 g onion", "50 g garlic"],
+      "ingredients": ["400 g spaghetti", "300 g ground beef", "500 g tomatoes", "100 g onion"],
       "preparing_time": "45 min",
       "calories": "480 calories"
     },
     {
-      "recipe_image": "vegetable_curry.jpg",
+      "recipe_image": "https://i.ibb.co/QMq2vMq/vegetablecurry-80763-16x9.jpg",
       "recipe_id": "003",
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful and aromatic Indian-inspired curry packed with vegetables.",
-      "ingredients": ["300 g potatoes", "200 g carrots", "150 g cauliflower", "100 g peas", "50 g curry powder"],
+      "ingredients": ["300 g potatoes", "200 g carrots", "150 g cauliflower", "100 g peas"],
       "preparing_time": "40 min",
       "calories": "250 calories"
     },
     {
-      "recipe_image": "caesar_salad.jpg",
+      "recipe_image": "https://i.ibb.co/6tdpQKh/Easy-Caesar-Salad-35636-1-16x9.jpg",
       "recipe_id": "004",
       "recipe_name": "Caesar Salad",
       "short_description": "A classic Caesar salad with crisp romaine lettuce, Parmesan cheese, and tangy dressing.",
@@ -36,20 +36,20 @@
       "calories": "180 calories"
     },
     {
-      "recipe_image": "chocolate_cake.jpg",
+      "recipe_image": "https://i.ibb.co/PDyCFs8/easy-chocolate-cake-31070-16x9.jpg",
       "recipe_id": "005",
       "recipe_name": "Chocolate Cake",
       "short_description": "Decadent and moist chocolate cake perfect for any occasion.",
-      "ingredients": ["200 g all-purpose flour", "150 g sugar", "100 g cocoa powder", "150 ml milk", "150 g butter"],
+      "ingredients": ["200 g all-purpose flour", "150 g sugar", "100 g cocoa powder", "150 ml milk"],
       "preparing_time": "60 min",
       "calories": "380 calories"
     },
     {
-      "recipe_image": "fruit_smoothie.jpg",
+      "recipe_image": "https://i.ibb.co/jR2Dg2v/intro-1626359593.webp",
       "recipe_id": "006",
       "recipe_name": "Fruit Smoothie",
       "short_description": "Refreshing and nutritious smoothie packed with assorted fruits.",
-      "ingredients": ["1 banana", "100 g strawberries", "100 g blueberries", "150 ml yogurt", "50 ml orange juice"],
+      "ingredients": ["1 banana", "100 g strawberries", "100 g blueberries", "150 ml yogurt"],
       "preparing_time": "10 min",
       "calories": "150 calories"
     }
