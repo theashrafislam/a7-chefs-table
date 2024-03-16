@@ -1,5 +1,6 @@
 import './App.css'
 import Banner from './Banner'
+import MainSection from './MainSection'
 import NavBar from './NavBar'
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
         <NavBar></NavBar>
         <Banner></Banner>
       </header>
+      <main id='main-container' className='container mx-auto'>
+          <MainSection></MainSection>
+      </main>
     </>
   )
 }
