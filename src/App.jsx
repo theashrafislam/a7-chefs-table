@@ -1,12 +1,15 @@
 import './App.css'
+import Banner from './Banner'
+import NavBar from './NavBar'
 
 function App() {
 
   return (
     <>
-      
-      <h1 className='text-4xl'>Vite + React</h1>
-      
+      <header className='container mx-auto'>
+        <NavBar></NavBar>
+        <Banner></Banner>
+      </header>
     </>
   )
 }
