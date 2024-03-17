@@ -6,7 +6,7 @@ const Navbar = () => {
             <div>
                 <h2 className="text-[#150B2B] text-3xl font-bold">Recipe Calories</h2>
             </div>
-            <div className="flex justify-around text-base text-[#150B2BB3]">
+            <div className="flex gap-16 text-base text-[#150B2BB3]">
                 <p>Home</p>
                 <p>Recipes</p>
                 <p>About</p>
