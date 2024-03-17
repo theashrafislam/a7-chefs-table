@@ -5,29 +5,21 @@ import { useState } from "react";
 import Recipes from "./Recipes";
 import Sidebar from "./Sidebar";
 const MainSection = ({ recipesItem }) => {
-    // console.log(recipesItem)
     const [wantToCook, setWantToCook] = useState([]);
-    // console.log(wantToCook);
     const handleWantToCook = (recipe) => {
-        // console.log(recipe)
         const isExist = wantToCook.find(item => item.recipe_id === recipe.recipe_id);
-        // console.log(isExist);
         if (!isExist) {
             setWantToCook([...wantToCook, recipe]);
         }
         else {
             toast.error('Recipe already exists');
         }
-        // setWantToCook([])
     }
 
     const [currentlyCooking, setCurrentlyCooking] = useState([]);
-    // const [currentlyId, setCurrentlyId] = useState([]);
     const handlePrepareClick =(item, id) => {
         setCurrentlyCooking([...currentlyCooking, item]);
-        // setCurrentlyId(id)
         const forRemove = wantToCook.filter(item => item.recipe_id !== id);
-        // console.log(wantToCook, id)
         setWantToCook(forRemove);
 
     }

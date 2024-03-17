@@ -1,7 +1,7 @@
 import { LuClock3 } from "react-icons/lu";
 import { AiOutlineFire } from "react-icons/ai";
 const Recipes = ({ recipe, handleWantToCook}) => {
-    // console.log(recipe)
+
     const {recipe_image, recipe_name, short_description, preparing_time, calories, ingredients} = recipe;
     return (
         <div>

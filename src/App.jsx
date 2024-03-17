@@ -14,7 +14,7 @@ function App() {
     .then(data => setRecipes(data))
   }, [])
 
-  // console.log(recipes)
+
 
   return (
     <>

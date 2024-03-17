@@ -1,7 +1,7 @@
 const Banner = () => {
     return (
         <div className="container mx-auto">
-            <div className="bg-[url('./src/assets/image/banner-img.png')] bg-no-repeat bg-cover w-full h-[700px]">
+            <div className="bg-[url('./assets/image/banner-img.png')] bg-no-repeat bg-cover w-full h-[700px]">
                 <div className="py-48 text-center text-[#FFFFFF]">
                     <h1 className="text-5xl font-bold text-center leading-[76px] mb-6">Discover an exceptional cooking <br />class tailored for you!</h1>
                     <p className="text-lg">Indulge in a personalized culinary journey with expert chefs, exploring diverse cuisines and mastering <br/>unique recipes for an unforgettable cooking class experience!</p>
