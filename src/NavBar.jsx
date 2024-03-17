@@ -12,7 +12,7 @@ const Navbar = () => {
                 <p>About</p>
                 <p>Search</p>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex gap-3 items-center w-[400px] ml-[116px]">
                 <div className="w-4/5 flex items-center bg-[#150b2b0d] py-3 px-6 rounded-[50px]">
                     <span className="text-2xl">< IoIosSearch /></span>
                     <input className="text-lg p-1 w-full bg-[#F3F3F4]" type="text" name="" id="" placeholder="Search" />

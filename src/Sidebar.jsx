@@ -16,7 +16,6 @@ const Sidebar = ({ wantToCookItems, currentlyCooking, handlePrepareClick}) => {
             
             {wantToCookItems.map((item, index) => (
                     // console.log(item)
-
                     <div key={index} className="p-4 flex gap-3 items-center bg-[#28282808] mb-8">
                         <h3 className="1/11">{index + 1}</h3>
                         <h3 className="w-[170px]">{item.recipe_name}</h3>
@@ -47,7 +46,6 @@ const Sidebar = ({ wantToCookItems, currentlyCooking, handlePrepareClick}) => {
                     ))
                         
                 }
-
             </div>
         </div>
     );
