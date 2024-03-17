@@ -5,7 +5,6 @@ import { useState } from "react";
 import Recipes from "./Recipes";
 import Sidebar from "./Sidebar";
 const MainSection = ({ recipesItem }) => {
-
     // console.log(recipesItem)
     const [wantToCook, setWantToCook] = useState([]);
     // console.log(wantToCook);
